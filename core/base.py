@@ -128,11 +128,3 @@ class Base(Framework, object):
         # To hide commands from displaying in the help menu,
         # add them to the hidden_commands list
         self.hidden_commands.append('shortcuts')
-
-    def do_mytest(self, args):
-        pass
-
-    def complete_mytest(self, *args):
-        text, line, begidx, endidx = args
-        modules = self._loaded_modules.keys()
-        return [match for match in modules if match.startswith(text)]
