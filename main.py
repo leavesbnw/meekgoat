@@ -12,8 +12,8 @@ def main():
 
                  Welcome to MeekGoat Console!
 """
-    lx = base.Base()
-    lx.cmdloop(intro=banner)
+    mg = base.Base()
+    mg.cmdloop(intro=banner)
 
 if __name__ == '__main__':
     main()
