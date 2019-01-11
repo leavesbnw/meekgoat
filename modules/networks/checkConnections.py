@@ -8,7 +8,7 @@ import psutil
 class Module(BaseModule):
     meta = {
             'name': 'CheckNetConnections',
-            'author': 'BNW (bannianwei@comisys.net)',
+            'author': 'BNW (leavesbnw@163.com)',
             'version': 'v1.0.0',
             'description': '统计当前服务器的端口连接数'
     }

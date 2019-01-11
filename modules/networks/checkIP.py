@@ -6,7 +6,7 @@ import requests
 class Module(BaseModule):
     meta = {
             'name': 'checknetip',
-            'author': 'BNW (bannianwei@comisys.net)',
+            'author': 'BNW (leavesbnw@163.com)',
             'version': 'v1.0.0',
             'description': '获取IP信息，如果IP为空则获取出口IP的相关信息'
     }
